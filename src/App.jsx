@@ -118,7 +118,7 @@ function App() {
                     <img
                       src={recipe.img}
                       alt={recipe.title}
-                      className="w-full h-48 object-cover hover:scale-105 transition duration-500"
+                      className="w-full h-48 hover:scale-105 transition duration-500"
                     />
                     <div className="p-6">
                       <h3 className="text-xl font-bold text-avo-dark mb-2">
