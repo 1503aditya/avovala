@@ -2,6 +2,7 @@ import React from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { motion } from "framer-motion";
 import { CheckCircle } from "lucide-react";
+import { Analytics } from "@vercel/analytics/react";
 
 import Header from "./components/Header";
 import Hero from "./components/Hero";
@@ -164,6 +165,7 @@ function App() {
         </section>
 
         <Footer />
+        <Analytics />
       </div>
     </HelmetProvider>
   );
