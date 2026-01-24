@@ -16,7 +16,7 @@ const SOCIAL_LINKS = [
     Icon: Instagram,
     link: "https://www.instagram.com/avowalakol?igsh=MXNtdTc1ZjhnZGFvaw==",
   },
-  { Icon: Linkedin, link: "#" }, // Add LinkedIn link if you have one later
+  { Icon: Linkedin, link: "https://www.linkedin.com/company/avowala/" }, // Add LinkedIn link if you have one later
 ];
 
 const Footer = () => {

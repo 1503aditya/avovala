@@ -45,9 +45,6 @@ const Hero = () => {
           <h1 className="text-4xl md:text-6xl font-serif font-bold text-white mb-6 leading-tight drop-shadow-lg">
             {CAROUSEL_DATA[index].text}
           </h1>
-          <button className="bg-avo-main hover:bg-avo-dark text-white px-8 py-3 rounded-full font-semibold transition-all transform hover:scale-105 shadow-lg">
-            Explore Freshness
-          </button>
         </motion.div>
       </div>
     </section>

@@ -9,10 +9,10 @@ import recipe3 from "../assets/R3.png";
 import recipe4 from "../assets/R4.png";
 
 export const NAV_LINKS = [
-  { name: "About Us", to: "about" },
   { name: "Order Now", to: "order" },
   { name: "Benefits", to: "benefits" },
   { name: "Recipes", to: "recipes" },
+  { name: "About Us", to: "about" },
   { name: "Contact Us", to: "contact" },
 ];
 
